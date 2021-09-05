@@ -32,15 +32,19 @@
 				<ul>
 					<li><a href="https://andrew-quach.github.io/#top" id="top-link"><span
 								class="icon solid fa-home">Home</span></a></li>
-					<li><a href="https://andrew-quach.github.io/#about" id="about-link"><span class="icon solid fa-user">About</span></a></li>
-					<li><a href="https://andrew-quach.github.io/#homelab" id="homelab-link"><span class="icon solid fa-toolbox">Homelab</span></a></li>
-					<li><a href="https://andrew-quach.github.io/#skills" id="skills-link"><span class="icon solid fa-list-ul">Skills</span></a></li>
+					<li><a href="https://andrew-quach.github.io/#about" id="about-link"><span
+								class="icon solid fa-user">About</span></a></li>
+					<li><a href="https://andrew-quach.github.io/#homelab" id="homelab-link"><span
+								class="icon solid fa-toolbox">Homelab</span></a></li>
+					<li><a href="https://andrew-quach.github.io/#skills" id="skills-link"><span
+								class="icon solid fa-list-ul">Skills</span></a></li>
 					<li><a href="https://andrew-quach.github.io/#experience" id="experience-link"><span
 								class="icon solid fa-lightbulb">Experience</span></a></li>
 					<li><a href="https://andrew-quach.github.io/#education" id="education-link"><span
 								class="icon solid fa-graduation-cap">Education</span></a></li>
 					<!-- <li><a href="#hobbies" id="hobbies-link"><span class="icon solid fa-heart">Hobbies</span></a></li> -->
-					<li><a href="https://andrew-quach.github.io/#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a>
+					<li><a href="https://andrew-quach.github.io/#contact" id="contact-link"><span
+								class="icon solid fa-envelope">Contact</span></a>
 					</li>
 
 				</ul>
@@ -52,9 +56,12 @@
 
 			<!-- Social Icons -->
 			<ul class="icons">
-				<li><a href="#" class="fab fa-linkedin-in"><span class="label"></span></a></li>
-				<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-				<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+				<li><a href="https://www.linkedin.com/in/andrew-quach-2b19aaa6/" class="fab fa-linkedin-in"><span
+							class="label"></span></a></li>
+				<li><a href="https://github.com/andrew-quach" class="icon brands fa-github"><span
+							class="label">Github</span></a></li>
+				<li><a href="mailto: andrewrquach@gmail.com" class="icon solid fa-envelope"><span
+							class="label">Email</span></a></li>
 			</ul>
 
 		</div>
@@ -80,57 +87,71 @@
 
 					<div align="left">
 						<p>This is a rough look at my current homelab setup.</p>
-						
-					<p>I receive internet through my ISP via fiber which goes to my ISP's modem. From there it goes to
-						my gateway and to my unmanaged switch. </p>
 
-					<p>Connected to the switch are my home server and gaming rig. The rig is a Windows 10 Pro machine
-						with
-						a Ryzen 7 3700x, 16gb RAM, and a RTX 3070. The home server is a Cooler Master chassis and houses
-						a
-						Pentium G3258, 16gb RAM, 128gb SSD and 1tb HDD. This home server is the first pc I've ever built
-						and
-						used to be my main rig. She's a little old and I start to notice its age last year.</p>
+						<p>I receive internet through my ISP via fiber which goes to my ISP's modem. From there it goes
+							to
+							my gateway and to my unmanaged switch. </p>
 
-					<p>I'm running Hyper-V Server 2019, the free trial headless version. I manage it through my gaming
-						rig
-						using a combination of Powershell sessions, the Hyper-V Manager, and Windows Admin Center, all
-						very
-						effective tools. I user Powershell when I've got the time and want to learn how to do my next
-						task
-						through the terminal, and WAC when I just need to make a quick filesystem change.
-					</p>
+						<p>Connected to the switch are my home server and gaming rig. The rig is a Windows 10 Pro
+							machine
+							with
+							a Ryzen 7 3700x, 16gb RAM, and a RTX 3070. The home server is a Cooler Master chassis and
+							houses
+							a
+							Pentium G3258, 16gb RAM, 128gb SSD and 1tb HDD. This home server is the first pc I've ever
+							built
+							and
+							used to be my main rig. She's a little old and I start to notice its age last year.</p>
+
+						<p>I'm running Hyper-V Server 2019, the free trial headless version. I manage it through my
+							gaming
+							rig
+							using a combination of Powershell sessions, the Hyper-V Manager, and Windows Admin Center,
+							all
+							very
+							effective tools. I user Powershell when I've got the time and want to learn how to do my
+							next
+							task
+							through the terminal, and WAC when I just need to make a quick filesystem change.
+						</p>
 
 
-					<p>I'm currently running a few VMs, and Ubuntu server vm for all my media services, Ubuntu GUI vm
-						for
-						NextCloud, and a Windows Server 2019 VM set up as a domain controller with two Windows 10 VMs
-						joined
-						to it.</p>
+						<p>I'm currently running a few VMs, and Ubuntu server vm for all my media services, Ubuntu GUI
+							vm
+							for
+							NextCloud, and a Windows Server 2019 VM set up as a domain controller with two Windows 10
+							VMs
+							joined
+							to it.</p>
 
-					<p>Changes I'd like to make:
-						I'm currently in the process of trying to combine all my services onto one Docker stack. I'd
-						like to
-						add the ability to self host a my personal website, but the first step is to secure everything,
-						so
-						I'm working on setting up SSL certs using Traefik 2 and LetsEncrypt. My current barriers are
-						less
-						than optimal understanding of my current setup since I followed a tutorial initially, so I'll
-						need
-						to put some work into creating a test environment replicating my current setup in case I mess
-						something up.</p>
+						<p>Changes I'd like to make:
+							I'm currently in the process of trying to combine all my services onto one Docker stack. I'd
+							like to
+							add the ability to self host a my personal website, but the first step is to secure
+							everything,
+							so
+							I'm working on setting up SSL certs using Traefik 2 and LetsEncrypt. My current barriers are
+							less
+							than optimal understanding of my current setup since I followed a tutorial initially, so
+							I'll
+							need
+							to put some work into creating a test environment replicating my current setup in case I
+							mess
+							something up.</p>
 
-					<p>Some hardware upgrades are due in the future. Currently I'm working with the equipment that I
-						already got right now. I plan to upgrade my pc with some more ram sticks to be able to spin up
-						more
-						virtualizations. My current switch is working perfectly but I feel like it would be great
-						experience
-						to work with an enterprise switch. This will help me to get used to enterprise hardware and
-						software. Also, I plan to add more storage. I'll need a raid controller so I can set my storage
-						up
-						properly, and I'll need to figure out a way to store my existing media for a small amount of
-						time
-						while I configure everything.</p>
+						<p>Some hardware upgrades are due in the future. Currently I'm working with the equipment that I
+							already got right now. I plan to upgrade my pc with some more ram sticks to be able to spin
+							up
+							more
+							virtualizations. My current switch is working perfectly but I feel like it would be great
+							experience
+							to work with an enterprise switch. This will help me to get used to enterprise hardware and
+							software. Also, I plan to add more storage. I'll need a raid controller so I can set my
+							storage
+							up
+							properly, and I'll need to figure out a way to store my existing media for a small amount of
+							time
+							while I configure everything.</p>
 					</div>
 
 			</div>
